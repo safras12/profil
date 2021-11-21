@@ -6,7 +6,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
 */
 .notification {
-  background-color: #0000e6;
+  background-color: #4db8ff;
   color: white;
   text-decoration: none;
   padding: 5px 7px;
@@ -16,7 +16,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
 }
 
 .notification:hover {
-  background: #9999ff;
+  background:  #4dd2ff;
 }
 
 .notification .badge {
