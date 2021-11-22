@@ -5,6 +5,7 @@ Tooplate 2119 Gymso Fitness
 https://www.tooplate.com/view/2119-gymso-fitness
 
 */
+/* skills designs */
  {box-sizing: border-box}
 
 .container {
@@ -23,6 +24,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
 .css {width: 80%; background-color: #2196F3;}
 .js {width: 65%; background-color: #f44336;}
 .php {width: 60%; background-color: #808080;}
+.wordpress {width: 90%; background-color: #0000ff;}
+
+
 /*shadow for cv and portfolio */
 .glow {
   font-size: 20px;
