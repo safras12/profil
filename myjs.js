@@ -1,4 +1,5 @@
 
+<div id="div1" class="fa"> </div>
 function chargebattery() {
   var a;
   a = document.getElementById("charging");
