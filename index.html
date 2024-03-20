@@ -1,12 +1,209 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Plans</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Raleway", sans-serif;
+      font-family: "Zen Kaku Gothic Antique", sans-serif;
+    }
+    body {
+      margin: 10px 0;
+      min-height: 100vh;
+      background-image: linear-gradient(135deg, #f97794 10%, #623aa2 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .panel {
+      background-color: white;
+      border-radius: 20px;
+      padding: 10px;
+      width: 90%;
+      max-width: 930px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    .pricing-plan {
+      border-bottom: 1px solid #e6e6e6;
+      padding: 0 20px;
+    }
+    .pricing-plan:last-child {
+      border-bottom: none;
+    }
+    .pricing-img {
+      width: 200px;
+    }
+    .pricing-header {
+      color: #888;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-size: medium;
+    }
+    .pricing-features {
+      margin: 30px 0 25px;
+      color: #f97794;
+    }
+    .pricing-features-items {
+      list-style: none;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-size: 13px;
+      line-height: 1.5;
+      padding: 10px 0;
+      border-top: 1px solid #e6e6e6;
+    }
+    .pricing-features-items:last-child {
+      border-bottom: 1px solid #e6e6e6;
+    }
+    .pricing-price {
+      color: #3acad1;
+      display: block;
+      font-size: 30px;
+      font-weight: 900;
+    }
+    .pricing-button {
+      color: #3acad1;
+      border: 1px solid #3acad1;
+      border-radius: 10px;
+      font-weight: 700;
+      display: inline-block;
+      padding: 15px 30px;
+      text-decoration: none;
+      margin: 15px 0;
+      width: 150px;
+      transition: background-color 200ms ease-in-out;
+    }
+    .pricing-button:hover,
+    .pricing-button:focus {
+      background-color: #43dee62c;
+    }
+    .pricing-button.is-featured {
+      background-color: #3acad1;
+      color: white;
+    }
+    .pricing-button.pricing-button.is-featured:hover,
+    .pricing-button.pricing-button.is-featured:focus {
+      background-color: #31b4bb;
+    }
+    @media (min-width: 800px) {
+      body {
+        margin: 0;
+      }
+      .panel {
+        flex-direction: row;
+      }
+      .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e6e6e6;
+        width: 33.33%;
+      }
+      .pricing-plan:last-child {
+        border-right: none;
+      }
+      #content1::after {
+        content: "\a";
+        white-space: pre;
+      }
+    }
+  </style>
 </head>
 <body>
+  <div class="panel">
+     <div class="pricing-plan">
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/1m0fyMF/Personal.png" alt="Personal" border="0" class="pricing-img"></a>
+      <h2 class="pricing-header">PERSONAL PLAN </h2>
+      <span class="pricing-price">From &#8360; 30,000</span>
+<a href="mailto:safrasmohamed610@gmail.com" class="pricing-button email-button">CONTACT</a>
+      <ul class="pricing-features">
+        <li class="pricing-features-items">CUSTOM DOMAINS</li>
+<li class="pricing-features-items">Free Domain Name .COM (1 Year)</li>
+<li class="pricing-features-items">Free 5GB Hosting (1 Year)</li> 
+<li class="pricing-features-items">Free 100 GB Bandwidth (1 Year)</li>
+<li class="pricing-features-items">Free 25 Email Accounts (ex: info@yourdomain.com)</li>
+<li class="pricing-features-items">Free SSL Certificate</li>
+<li class="pricing-features-items">Basic Design & Layout</li>
+<li class="pricing-features-items">Best For Up to 50 Products</li>
+<li class="pricing-features-items">Mobile Responsive</li>
+<li class="pricing-features-items">5 Content Pages</li>
+<li class="pricing-features-items">New Products</li>
+<li class="pricing-features-items">Coupons/Discounts</li>
+<li class="pricing-features-items">Sale products</li>
+<li class="pricing-features-items">Google Analytics integration</li>
+<li class="pricing-features-items">Search Engine Optimization</li>
+<li class="pricing-features-items">Software Firewall</li> </ul>
+       </div>
+     
+     <div class="pricing-plan">
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/J2dsNN0/Small-Business.png" alt="Small-Business" border="0" class="pricing-img"></a>
+      <h2 class="pricing-header">SMALL TEAM</h2>
+      <span class="pricing-price">From &#8360; 45,000</span>
+      <a href="mailto:safrasmohamed610@gmail.com" class="pricing-button email-button">CONTACT</a>
+      <ul class="pricing-features">
+        <li class="pricing-features-items">CUSTOM DOMAINS</li>
+<li class="pricing-features-items">Free Domain Name .COM (1 Year)</li>
+<li class="pricing-features-items">Free 10GB Hosting (1 Year)</li>
+<li class="pricing-features-items">Free 150 GB Bandwidth (1 Year)</li>
+<li class="pricing-features-items">Free 30 Email Accounts (ex: info@yourdomain.com)</li>
+<li class="pricing-features-items">Free SSL Certificate</li>
+<li class="pricing-features-items">Custom UI Design</li>
+<li class="pricing-features-items">Basic Design & Layout</li>
+<li class="pricing-features-items">Best For Up to 50 Products</li>
+<li class="pricing-features-items">Mobile Responsive</li>
+<li class="pricing-features-items">2 Content Pages</li>
+<li class="pricing-features-items">1 Slideshow</li>
+<li class="pricing-features-items">Monthly Backups</li>
+<li class="pricing-features-items">Up to 10 products added for you</li>
+<li class="pricing-features-items">Featured Products</li>
+<li class="pricing-features-items">New Products</li>
+<li class="pricing-features-items">Coupons/Discounts</li>
+<li class="pricing-features-items">Sale products</li>
+<li class="pricing-features-items">Free Basic SEO setup</li>
+<li class="pricing-features-items">Google Analytics integration</li>
+<li class="pricing-features-items">Search Engine Optimization</li>
+<li class="pricing-features-items">Software Firewall</li></ul>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    </div>
 
+    <div class="pricing-plan">
+      <a href="https://imgbb.com/"><img src="https://i.ibb.co/8gLBQWR/Enterprise.png" alt="Enterprise" border="0" class="pricing-img"></a>
+      <h2 class="pricing-header">MEDIUM AND LARGE</h2>
+            <span class="pricing-price">From &#8360; 60,000</span>
+      <a href="mailto:safrasmohamed610@gmail.com" class="pricing-button email-button">CONTACT</a>
+      
+      <ul class="pricing-features">
+        <li class="pricing-features-items">CUSTOM DOMAINS</li>
+<li class="pricing-features-items">Free Domain Name .COM (1 Year)</li>
+<li class="pricing-features-items">Free 15GB to 20GB Hosting (1 Year)</li>
+<li class="pricing-features-items">Free 200GB to 250GB Bandwidth (1 Year)</li>
+<li class="pricing-features-items">Free 30 Email Accounts (ex: info@yourdomain.com)</li>
+<li class="pricing-features-items">Free SSL Certificate</li>
+<li class="pricing-features-items">Custom UI Design</li>
+<li class="pricing-features-items">Unique Design & Layout</li>
+<li class="pricing-features-items">Best For Up to 200 Products</li>
+<li class="pricing-features-items">Mobile Responsive</li>
+<li class="pricing-features-items">10+ Content Pages</li>
+<li class="pricing-features-items">10+ Slideshow</li>
+<li class="pricing-features-items">Monthly Backups</li>
+<li class="pricing-features-items">Up to 50 products added for you</li>
+<li class="pricing-features-items">Featured Products</li>
+<li class="pricing-features-items">New Products</li>
+<li class="pricing-features-items">Coupons/Discounts</li>
+<li class="pricing-features-items">Sale products</li>
+<li class="pricing-features-items">Social media integration</li>
+<li class="pricing-features-items">Free Basic SEO setup</li>
+<li class="pricing-features-items">Google Analytics integration</li>
+<li class="pricing-features-items">Search Engine Optimization</li>
+<li class="pricing-features-items">Software Firewall</li>
+<li class="pricing-features-items">Live Chat Support Integration</li></ul>
+      
+    </div>
+  </div>
 </body>
 </html>
