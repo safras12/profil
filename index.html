@@ -1,209 +1,390 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pricing Plans</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: "Raleway", sans-serif;
-      font-family: "Zen Kaku Gothic Antique", sans-serif;
-    }
-    body {
-      margin: 10px 0;
-      min-height: 100vh;
-      background-image: linear-gradient(135deg, #f97794 10%, #623aa2 100%);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .panel {
-      background-color: white;
-      border-radius: 20px;
-      padding: 10px;
-      width: 90%;
-      max-width: 930px;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-    }
-    .pricing-plan {
-      border-bottom: 1px solid #e6e6e6;
-      padding: 0 20px;
-    }
-    .pricing-plan:last-child {
-      border-bottom: none;
-    }
-    .pricing-img {
-      width: 200px;
-    }
-    .pricing-header {
-      color: #888;
-      font-weight: 600;
-      letter-spacing: 1px;
-      font-size: medium;
-    }
-    .pricing-features {
-      margin: 30px 0 25px;
-      color: #f97794;
-    }
-    .pricing-features-items {
-      list-style: none;
-      font-weight: 600;
-      letter-spacing: 1px;
-      font-size: 13px;
-      line-height: 1.5;
-      padding: 10px 0;
-      border-top: 1px solid #e6e6e6;
-    }
-    .pricing-features-items:last-child {
-      border-bottom: 1px solid #e6e6e6;
-    }
-    .pricing-price {
-      color: #3acad1;
-      display: block;
-      font-size: 30px;
-      font-weight: 900;
-    }
-    .pricing-button {
-      color: #3acad1;
-      border: 1px solid #3acad1;
-      border-radius: 10px;
-      font-weight: 700;
-      display: inline-block;
-      padding: 15px 30px;
-      text-decoration: none;
-      margin: 15px 0;
-      width: 150px;
-      transition: background-color 200ms ease-in-out;
-    }
-    .pricing-button:hover,
-    .pricing-button:focus {
-      background-color: #43dee62c;
-    }
-    .pricing-button.is-featured {
-      background-color: #3acad1;
-      color: white;
-    }
-    .pricing-button.pricing-button.is-featured:hover,
-    .pricing-button.pricing-button.is-featured:focus {
-      background-color: #31b4bb;
-    }
-    @media (min-width: 800px) {
-      body {
-        margin: 0;
-      }
-      .panel {
-        flex-direction: row;
-      }
-      .pricing-plan {
-        border-bottom: none;
-        border-right: 1px solid #e6e6e6;
-        width: 33.33%;
-      }
-      .pricing-plan:last-child {
-        border-right: none;
-      }
-      #content1::after {
-        content: "\a";
-        white-space: pre;
-      }
-    }
-  </style>
+
+     <title>Mohamed Safras </title>
+	
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="bootstrap.min.css">
+     <link rel="stylesheet" href="font-awesome.min.css">
+     <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="tooplate-gymso-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+	
 </head>
-<body>
-  <div class="panel">
-     <div class="pricing-plan">
-      <a href="https://imgbb.com/"><img src="https://i.ibb.co/1m0fyMF/Personal.png" alt="Personal" border="0" class="pricing-img"></a>
-      <h2 class="pricing-header">PERSONAL PLAN </h2>
-      <span class="pricing-price">From &#8360; 30,000</span>
-<a href="mailto:safrasmohamed610@gmail.com" class="pricing-button email-button">CONTACT</a>
-      <ul class="pricing-features">
-        <li class="pricing-features-items">CUSTOM DOMAINS</li>
-<li class="pricing-features-items">Free Domain Name .COM (1 Year)</li>
-<li class="pricing-features-items">Free 5GB Hosting (1 Year)</li> 
-<li class="pricing-features-items">Free 100 GB Bandwidth (1 Year)</li>
-<li class="pricing-features-items">Free 25 Email Accounts (ex: info@yourdomain.com)</li>
-<li class="pricing-features-items">Free SSL Certificate</li>
-<li class="pricing-features-items">Basic Design & Layout</li>
-<li class="pricing-features-items">Best For Up to 50 Products</li>
-<li class="pricing-features-items">Mobile Responsive</li>
-<li class="pricing-features-items">5 Content Pages</li>
-<li class="pricing-features-items">New Products</li>
-<li class="pricing-features-items">Coupons/Discounts</li>
-<li class="pricing-features-items">Sale products</li>
-<li class="pricing-features-items">Google Analytics integration</li>
-<li class="pricing-features-items">Search Engine Optimization</li>
-<li class="pricing-features-items">Software Firewall</li> </ul>
-       </div>
-     
-     <div class="pricing-plan">
-      <a href="https://imgbb.com/"><img src="https://i.ibb.co/J2dsNN0/Small-Business.png" alt="Small-Business" border="0" class="pricing-img"></a>
-      <h2 class="pricing-header">SMALL TEAM</h2>
-      <span class="pricing-price">From &#8360; 45,000</span>
-      <a href="mailto:safrasmohamed610@gmail.com" class="pricing-button email-button">CONTACT</a>
-      <ul class="pricing-features">
-        <li class="pricing-features-items">CUSTOM DOMAINS</li>
-<li class="pricing-features-items">Free Domain Name .COM (1 Year)</li>
-<li class="pricing-features-items">Free 10GB Hosting (1 Year)</li>
-<li class="pricing-features-items">Free 150 GB Bandwidth (1 Year)</li>
-<li class="pricing-features-items">Free 30 Email Accounts (ex: info@yourdomain.com)</li>
-<li class="pricing-features-items">Free SSL Certificate</li>
-<li class="pricing-features-items">Custom UI Design</li>
-<li class="pricing-features-items">Basic Design & Layout</li>
-<li class="pricing-features-items">Best For Up to 50 Products</li>
-<li class="pricing-features-items">Mobile Responsive</li>
-<li class="pricing-features-items">2 Content Pages</li>
-<li class="pricing-features-items">1 Slideshow</li>
-<li class="pricing-features-items">Monthly Backups</li>
-<li class="pricing-features-items">Up to 10 products added for you</li>
-<li class="pricing-features-items">Featured Products</li>
-<li class="pricing-features-items">New Products</li>
-<li class="pricing-features-items">Coupons/Discounts</li>
-<li class="pricing-features-items">Sale products</li>
-<li class="pricing-features-items">Free Basic SEO setup</li>
-<li class="pricing-features-items">Google Analytics integration</li>
-<li class="pricing-features-items">Search Engine Optimization</li>
-<li class="pricing-features-items">Software Firewall</li></ul>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
 
+    <!-- MENU BAR -->
+	
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+
+            <a href="https://www.linkedin.com/in/mohamed-safras-0880b6188/" class="notification"> <span> LinkedIn Notifications </span> <span class="badge">3</span> </a>
+	    
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+		    <!-- <ul>
+		    <a href="https://www.facebook.com/safras.reigns" class="notification"> <span>FaceBook</span> <span class="badge">3</span> </a>
+                   <li><a href="https://www.facebook.com/safras.reigns" class="fa fa-facebook"></a></li>
+                    <li><a href="https://www.linkedin.com/in/mohamed-safras-0880b6188/" class="fa fa-LinkedIn"></a></li>
+                    <li><a href="https://www.instagram.com/safras_remo/" class="fa fa-instagram"></a></li
+                </ul>>-->
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-lg-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link smoothScroll">Nah!</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">About me?</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#class" class="nav-link smoothScroll">QLFCN</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#schedule" class="nav-link smoothScroll">Schedules</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Contact?</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+     <!-- HERO -->
+     <section class="hero d-flex flex-column justify-content-center align-items-center" id="home">
+
+            <div class="bg-overlay"></div>
+
+               <div class="container">
+                    <div class="row">
+
+                         <div class="col-lg-8 col-md-10 mx-auto col-12">
+                              <div class="hero-text mt-5 text-center">
+
+                                    <h6 data-aos="fade-up" data-aos-delay="300">Mohamed Safras</h6>
+
+                                    <h1 class="text-white" data-aos="fade-up" data-aos-delay="500">Web Design & Developer</h1>
+
+                                    <a href="mailto: safrasmohamed610@gmail.com" class="btn custom-btn bordered mt-3" data-aos="fade-up" data-aos-delay="700">Contact Me</a>
+
+                                    <a href="https://safras12.github.io/portfolio/" class="btn custom-btn bordered mt-3" data-aos="fade-up" data-aos-delay="700">my Portfolio</a>
+                                   
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+     </section>
+
+
+     <section class="feature" id="feature">
+        <div class="container">
+            <div class="row">
+
+                <div class="d-flex flex-column justify-content-center ml-lg-auto mr-lg-5 col-lg-5 col-md-6 col-12">
+                    <h2 class="mb-3 text-white" data-aos="fade-up">welcome to the tech era</h2>
+
+                    <h6 class="mb-4 text-white" data-aos="fade-up">I am a software engineering student | Front-end Developer </h6>
+			
+
+                    <p data-aos="fade-up" data-aos-delay="200">this website is created by myself in github. <a rel="nofollow" href="https://github.com/safras12" target="_parent"> my GitHub page</a> feel ree to take chat with me </p>
+
+                    <a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade-up" data-aos-delay="300" data-toggle="modal" data-target="#membershipForm">apply for a chat </a>
+                </div>
+
+                <div class="mr-lg-auto mt-3 col-lg-4 col-md-6 col-12">
+                     <div class="about-working-hours">
+                          <div>
+
+                                <h2 class="mb-4 text-white" data-aos="fade-up" data-aos-delay="500">Working hours</h2>
+
+                               <strong class="d-block" data-aos="fade-up" data-aos-delay="600">Sunday : not sure </strong>
+
+                               <strong class="mt-3 d-block" data-aos="fade-up" data-aos-delay="700">Monday - Friday</strong>
+
+                                <p data-aos="fade-up" data-aos-delay="800">7:00 AM - 10:00 PM</p>
+
+                                <strong class="mt-3 d-block" data-aos="fade-up" data-aos-delay="700">Saturday</strong>
+
+                                <p data-aos="fade-up" data-aos-delay="800">6:00 AM - 4:00 PM</p>
+                               </div>
+                          </div>
+                     </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+     <!-- ABOUT -->
+     <section class="about section" id="about">
+               <div class="container">
+		       <div class="fa">
+                    <div class="row">
+
+                            <div class="mt-lg-5 mb-lg-0 mb-4 col-lg-5 col-md-10 mx-auto col-12">
+                                <h2 class="mb-4" data-aos="fade-up" data-aos-delay="300">want to know about me?</h2>
+
+                                <p data-aos="fade-up" data-aos-delay="400"> here is my CV and Portfolio for your reference </p>
+
+                                <p data-aos="fade-up" data-aos-delay="500">If you have any question regarding <a rel="nofollow" href="#" target="_parent">my CV and Portfolio </a>, you can <a rel="nofollow" href="mailto :safrasmohamed610@gmail.com" target="_parent">contact me</a> immediately. Thank you.</p>
+
+                            </div>
+
+                            <div class="ml-lg-auto col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="700">
+                                <div class="team-thumb">
+                                    <a href="https://drive.google.com/file/d/1QDXCk3XI5Pm0iHKBUP5RpM1ga3j4X_F1/view"> <img src="team-image01.jpg"  class="img-fluid" alt="Trainer"> </a>
+
+                                    <div class="team-info d-flex flex-column">
+
+                                        <h3 font-family="Aldrich"><a href="https://drive.google.com/file/d/1QDXCk3XI5Pm0iHKBUP5RpM1ga3j4X_F1/view"> Curriculum Vitae </a></h3>
+                                        <span font-family="Aldrich"> <a style="text-decoration:none" href="https://drive.google.com/file/d/1QDXCk3XI5Pm0iHKBUP5RpM1ga3j4X_F1/view"> View or Download </a> </span>
+							<div id="div1" class="fa"> </div>
+                                       		           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+			     
+		     				    
+
+                            <div class="mr-lg-auto mt-5 mt-lg-0 mt-md-0 col-lg-3 col-md-6 col-12" data-aos="fade-up" data-aos-delay="800">
+                                <div class="team-thumb">
+                                    <a href="https://safras12.github.io/portfolio/"> <img src="team-image.jpg" class="img-fluid" alt="Trainer"></a>
+
+                                    <div class="team-info d-flex flex-column">
+
+                                        <h3 font-family="Aldrich"><a href="https://safras12.github.io/portfolio/">Portfolio</a></h3>
+                                        <span font-family="Aldrich"><span> <a style="text-decoration:none" href="https://safras12.github.io/portfolio/"> Visit Site </a> </span>
+
+                                             <div id="div1" class="fa"> </div>
+                                             
+                                            
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+               </div>
+
+	
+     </section>
+
+
+     <!-- CLASS -->
+     <section class="class section" id="class">
+               <div class="container">
+                    <div class="row">
+
+                            <div class="col-lg-12 col-12 text-center mb-5">
+                                <h6 data-aos="fade-up">Get A Perfect Body</h6>
+
+                                <h2 data-aos="fade-up" data-aos-delay="200">Our Training Classes</h2>
+                             </div>
+
+                            <div class="col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="400">
+                                <div class="class-thumb">
+                                    <img src="yoga-class.jpg" class="img-fluid" alt="Class">
+
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Yoga</h3>
+
+                                        <span><strong>Trained by</strong> - Bella</span>
+
+                                        <span class="class-price">$50</span>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-5 mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="500">
+                                <div class="class-thumb">
+                                    <img src="crossfit-class.jpg" class="img-fluid" alt="Class">
+
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Areobic</h3>
+
+                                        <span><strong>Trained by</strong> - Mary</span>
+
+                                        <span class="class-price">$66</span>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-5 mt-lg-0 col-lg-4 col-md-6 col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="class-thumb">
+                                    <img src="cardio-class.jpg" class="img-fluid" alt="Class">
+
+                                    <div class="class-info">
+                                        <h3 class="mb-1">Cardio</h3>
+
+                                        <span><strong>Trained by</strong> - Cathe</span>
+
+                                        <span class="class-price">$75</span>
+
+                                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+               </div>
+     </section>
+
+
+    					 <!--details -->
+			     <button class="accordion">Section 1</button>
+			<div class="panel">
+			  <li>more detais will be here</li>
+			</div>
+
+			<button class="accordion">Section 2</button>
+			<div class="panel">
+			  <li>more detais will be here</li>
+			</div>
+
+			<button class="accordion">Section 3</button>
+			<div class="panel">
+			  <li>more detais will be here</li>
+			</div>
+
+     <!-- CONTACT -->
+     <section class="contact section" id="contact">
+          <div class="container">
+               <div class="row">
+
+                    <div class="ml-auto col-lg-5 col-md-6 col-12">
+                        <h2 class="mb-4 pb-2" data-aos="fade-up" data-aos-delay="200">Feel free to ask anything</h2>
+
+                        <form action="#" method="post" class="contact-form webform" data-aos="fade-up" data-aos-delay="400" role="form">
+                            <input type="text" class="form-control" name="cf-name" placeholder="Name">
+
+                            <input type="email" class="form-control" name="cf-email" placeholder="Email">
+
+                            <textarea class="form-control" rows="5" name="cf-message" placeholder="Message"></textarea>
+
+                            <button type="submit" class="form-control" id="submit-button" name="submit">Send Message</button>
+                        </form>
+                    </div>
+
+                    <div class="mx-auto mt-4 mt-lg-0 mt-md-0 col-lg-5 col-md-6 col-12">
+                        <h2 class="mb-4" data-aos="fade-up" data-aos-delay="600">Where you can <span>find us</span></h2>
+
+                        <p data-aos="fade-up" data-aos-delay="800"><i class="fa fa-map-marker mr-1"></i> 120-240 Rio de Janeiro - State of Rio de Janeiro, Brazil</p>
+<!-- How to change your own map point
+	1. Go to Google Maps
+	2. Click on your location point
+	3. Click "Share" and choose "Embed map" tab
+	4. Copy only URL and paste it within the src="" field below
+-->
+                        <div class="google-map" data-aos="fade-up" data-aos-delay="900">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d743.1183087222847!2d81.81042722913325!3d7.417698829547314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae53f0ce1fe8f67%3A0x40eb23caa18b1910!2sMake%20It%20Online!5e1!3m2!1sen!2slk!4v1637562409390!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FOOTER -->
+     <footer class="site-footer">
+          <div class="container">
+               <div class="row">
+
+                    <div class="ml-auto col-lg-4 col-md-5">
+                        <p class="copyright-text">Copyright &copy; 2021 mohamed safras.
+                        
+                        <br>Design: <a href="https://www.facebook.com/webdeveoper247/">MIO</a></p>
+                    </div>
+
+                    <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
+                        <p class="mr-4">
+                            <i class="fa fa-envelope-o mr-1"></i>
+                            <a href="mailto: safrasmohamed610@gmail.com">safrasmohamed610@gmail.com</a>
+                        </p>
+
+                        <p><i class="fa fa-phone mr-1"></i> +94 779 593 910</p>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="membershipForm" tabindex="-1" role="dialog" aria-labelledby="membershipFormLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <h2 class="modal-title" id="membershipFormLabel">Membership Form</h2>
+
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <form class="membership-form webform" role="form">
+                <input type="text" class="form-control" name="cf-name" placeholder="John Doe">
+
+                <input type="email" class="form-control" name="cf-email" placeholder="Johndoe@gmail.com">
+
+                <input type="tel" class="form-control" name="cf-phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+                <textarea class="form-control" rows="3" name="cf-message" placeholder="Additional Message"></textarea>
+
+                <button type="submit" class="form-control" id="submit-button" name="submit">Submit Button</button>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="signup-agree">
+                    <label class="custom-control-label text-small text-muted" for="signup-agree">I agree to the <a href="#">Terms &amp;Conditions</a>
+                    </label>
+                </div>
+            </form>
+          </div>
+
+          <div class="modal-footer"></div>
+
+        </div>
+      </div>
     </div>
 
-    <div class="pricing-plan">
-      <a href="https://imgbb.com/"><img src="https://i.ibb.co/8gLBQWR/Enterprise.png" alt="Enterprise" border="0" class="pricing-img"></a>
-      <h2 class="pricing-header">MEDIUM AND LARGE</h2>
-            <span class="pricing-price">From &#8360; 60,000</span>
-      <a href="mailto:safrasmohamed610@gmail.com" class="pricing-button email-button">CONTACT</a>
-      
-      <ul class="pricing-features">
-        <li class="pricing-features-items">CUSTOM DOMAINS</li>
-<li class="pricing-features-items">Free Domain Name .COM (1 Year)</li>
-<li class="pricing-features-items">Free 15GB to 20GB Hosting (1 Year)</li>
-<li class="pricing-features-items">Free 200GB to 250GB Bandwidth (1 Year)</li>
-<li class="pricing-features-items">Free 30 Email Accounts (ex: info@yourdomain.com)</li>
-<li class="pricing-features-items">Free SSL Certificate</li>
-<li class="pricing-features-items">Custom UI Design</li>
-<li class="pricing-features-items">Unique Design & Layout</li>
-<li class="pricing-features-items">Best For Up to 200 Products</li>
-<li class="pricing-features-items">Mobile Responsive</li>
-<li class="pricing-features-items">10+ Content Pages</li>
-<li class="pricing-features-items">10+ Slideshow</li>
-<li class="pricing-features-items">Monthly Backups</li>
-<li class="pricing-features-items">Up to 50 products added for you</li>
-<li class="pricing-features-items">Featured Products</li>
-<li class="pricing-features-items">New Products</li>
-<li class="pricing-features-items">Coupons/Discounts</li>
-<li class="pricing-features-items">Sale products</li>
-<li class="pricing-features-items">Social media integration</li>
-<li class="pricing-features-items">Free Basic SEO setup</li>
-<li class="pricing-features-items">Google Analytics integration</li>
-<li class="pricing-features-items">Search Engine Optimization</li>
-<li class="pricing-features-items">Software Firewall</li>
-<li class="pricing-features-items">Live Chat Support Integration</li></ul>
-      
-    </div>
-  </div>
+     <!-- SCRIPTS -->
+     <script src="jquery.min.js"></script>
+     <script src="bootstrap.min.js"></script>
+     <script src="aos.js"></script>
+     <script src="smoothscroll.js"></script>
+     <script src="custom.js"></script>
+     <script src="myjs.js"></script>
+
 </body>
 </html>
